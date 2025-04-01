@@ -21,7 +21,7 @@
         android:id="@+id/breathingExerciseButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Дихальні вправи"
+        android:text="Інтеграція з мікроперервами"
         android:layout_marginTop="32dp"
         android:padding="16dp"
         app:layout_constraintTop_toBottomOf="@id/titleTextView" />
@@ -30,7 +30,7 @@
         android:id="@+id/meditationButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Медитація"
+        android:text="Дихальні вправи"
         android:layout_marginTop="16dp"
         android:padding="16dp"
         app:layout_constraintTop_toBottomOf="@id/breathingExerciseButton" />
@@ -39,7 +39,7 @@
         android:id="@+id/studyTimerButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Таймер навчання"
+        android:text="Міні-ігри"
         android:layout_marginTop="16dp"
         android:padding="16dp"
         app:layout_constraintTop_toBottomOf="@id/meditationButton" />
@@ -48,7 +48,7 @@
         android:id="@+id/stressTestButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Тест на стрес"
+        android:text="Генератор позитивних фраз"
         android:layout_marginTop="16dp"
         android:padding="16dp"
         app:layout_constraintTop_toBottomOf="@id/studyTimerButton" />
