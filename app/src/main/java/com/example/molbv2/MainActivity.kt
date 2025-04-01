@@ -12,19 +12,19 @@ class MainActivity : AppCompatActivity() {
 
         // Ініціалізація кнопок
         findViewById<MaterialButton>(R.id.breathingExerciseButton).setOnClickListener {
-            Toast.makeText(this, "Дихальні вправи", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Інтеграція з мікроперервами", Toast.LENGTH_SHORT).show()
         }
 
         findViewById<MaterialButton>(R.id.meditationButton).setOnClickListener {
-            Toast.makeText(this, "Медитація", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Дихальні вправи", Toast.LENGTH_SHORT).show()
         }
 
         findViewById<MaterialButton>(R.id.studyTimerButton).setOnClickListener {
-            Toast.makeText(this, "Таймер навчання", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Міні-ігри", Toast.LENGTH_SHORT).show()
         }
 
         findViewById<MaterialButton>(R.id.stressTestButton).setOnClickListener {
-            Toast.makeText(this, "Тест на стрес", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Генератор позитивних фраз", Toast.LENGTH_SHORT).show()
         }
 
         findViewById<MaterialButton>(R.id.motivationButton).setOnClickListener {
