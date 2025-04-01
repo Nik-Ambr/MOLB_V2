@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Антистрес для студентів"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/breathingExerciseButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Дихальні вправи"
+        android:layout_marginTop="32dp"
+        android:padding="16dp"
+        app:layout_constraintTop_toBottomOf="@id/titleTextView" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/meditationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Медитація"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        app:layout_constraintTop_toBottomOf="@id/breathingExerciseButton" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/studyTimerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Таймер навчання"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        app:layout_constraintTop_toBottomOf="@id/meditationButton" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/stressTestButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Тест на стрес"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        app:layout_constraintTop_toBottomOf="@id/studyTimerButton" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/motivationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Мотиваційні цитати"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        app:layout_constraintTop_toBottomOf="@id/stressTestButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout> 
